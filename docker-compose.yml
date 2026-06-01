@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17.5-bullseye
+    container_name: e1-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: e1_ecommerce
+    ports:
+      - "5431:5432"
+    volumes:
+      - e1_data:/var/lib/postgresql/data
+
+volumes:
+  e1_data:
