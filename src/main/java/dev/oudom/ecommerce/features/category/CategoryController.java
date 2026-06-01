@@ -1,7 +1,6 @@
-package dev.oudom.ecommerce.controller;
+package dev.oudom.ecommerce.features.category;
 
-import dev.oudom.ecommerce.dto.CategoryResponse;
-import dev.oudom.ecommerce.service.CategoryService;
+import dev.oudom.ecommerce.features.category.dto.CategoryResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

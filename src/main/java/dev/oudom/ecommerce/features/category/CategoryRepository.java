@@ -1,6 +1,5 @@
-package dev.oudom.ecommerce.repository;
+package dev.oudom.ecommerce.features.category;
 
-import dev.oudom.ecommerce.domain.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

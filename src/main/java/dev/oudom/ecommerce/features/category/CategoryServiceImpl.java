@@ -1,10 +1,6 @@
-package dev.oudom.ecommerce.service.impl;
+package dev.oudom.ecommerce.features.category;
 
-import dev.oudom.ecommerce.domain.Category;
-import dev.oudom.ecommerce.dto.CategoryResponse;
-import dev.oudom.ecommerce.mapper.CategoryMapper;
-import dev.oudom.ecommerce.repository.CategoryRepository;
-import dev.oudom.ecommerce.service.CategoryService;
+import dev.oudom.ecommerce.features.category.dto.CategoryResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

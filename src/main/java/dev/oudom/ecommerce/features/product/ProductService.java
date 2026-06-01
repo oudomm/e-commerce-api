@@ -1,9 +1,9 @@
-package dev.oudom.ecommerce.service;
+package dev.oudom.ecommerce.features.product;
 
-import dev.oudom.ecommerce.dto.CreateProductRequest;
-import dev.oudom.ecommerce.dto.PatchProductRequest;
-import dev.oudom.ecommerce.dto.ProductResponse;
-import dev.oudom.ecommerce.dto.UpdateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.CreateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.PatchProductRequest;
+import dev.oudom.ecommerce.features.product.dto.ProductResponse;
+import dev.oudom.ecommerce.features.product.dto.UpdateProductRequest;
 import org.springframework.data.domain.Page;
 
 public interface ProductService {

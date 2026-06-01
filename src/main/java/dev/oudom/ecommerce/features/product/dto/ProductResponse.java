@@ -1,4 +1,4 @@
-package dev.oudom.ecommerce.dto;
+package dev.oudom.ecommerce.features.product.dto;
 
 import java.math.BigDecimal;
 

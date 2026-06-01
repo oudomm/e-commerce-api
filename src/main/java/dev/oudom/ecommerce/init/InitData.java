@@ -1,7 +1,7 @@
 package dev.oudom.ecommerce.init;
 
-import dev.oudom.ecommerce.domain.Category;
-import dev.oudom.ecommerce.repository.CategoryRepository;
+import dev.oudom.ecommerce.features.category.Category;
+import dev.oudom.ecommerce.features.category.CategoryRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package dev.oudom.ecommerce.domain;
+package dev.oudom.ecommerce.features.order;
 
 import jakarta.persistence.*;
 import lombok.Getter;

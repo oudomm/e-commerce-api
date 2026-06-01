@@ -1,6 +1,5 @@
-package dev.oudom.ecommerce.repository;
+package dev.oudom.ecommerce.features.order;
 
-import dev.oudom.ecommerce.domain.OrderLine;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

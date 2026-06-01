@@ -1,4 +1,4 @@
-package dev.oudom.ecommerce.dto;
+package dev.oudom.ecommerce.features.product.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,7 +1,6 @@
-package dev.oudom.ecommerce.mapper;
+package dev.oudom.ecommerce.features.category;
 
-import dev.oudom.ecommerce.domain.Category;
-import dev.oudom.ecommerce.dto.CategoryResponse;
+import dev.oudom.ecommerce.features.category.dto.CategoryResponse;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

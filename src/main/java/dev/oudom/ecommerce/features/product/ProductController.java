@@ -1,10 +1,9 @@
-package dev.oudom.ecommerce.controller;
+package dev.oudom.ecommerce.features.product;
 
-import dev.oudom.ecommerce.dto.CreateProductRequest;
-import dev.oudom.ecommerce.dto.PatchProductRequest;
-import dev.oudom.ecommerce.dto.ProductResponse;
-import dev.oudom.ecommerce.dto.UpdateProductRequest;
-import dev.oudom.ecommerce.service.ProductService;
+import dev.oudom.ecommerce.features.product.dto.CreateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.PatchProductRequest;
+import dev.oudom.ecommerce.features.product.dto.ProductResponse;
+import dev.oudom.ecommerce.features.product.dto.UpdateProductRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

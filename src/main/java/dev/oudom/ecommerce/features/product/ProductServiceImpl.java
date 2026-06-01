@@ -1,15 +1,11 @@
-package dev.oudom.ecommerce.service.impl;
+package dev.oudom.ecommerce.features.product;
 
-import dev.oudom.ecommerce.domain.Category;
-import dev.oudom.ecommerce.domain.Product;
-import dev.oudom.ecommerce.dto.CreateProductRequest;
-import dev.oudom.ecommerce.dto.PatchProductRequest;
-import dev.oudom.ecommerce.dto.ProductResponse;
-import dev.oudom.ecommerce.dto.UpdateProductRequest;
-import dev.oudom.ecommerce.mapper.ProductMapper;
-import dev.oudom.ecommerce.repository.CategoryRepository;
-import dev.oudom.ecommerce.repository.ProductRepository;
-import dev.oudom.ecommerce.service.ProductService;
+import dev.oudom.ecommerce.features.category.Category;
+import dev.oudom.ecommerce.features.product.dto.CreateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.PatchProductRequest;
+import dev.oudom.ecommerce.features.product.dto.ProductResponse;
+import dev.oudom.ecommerce.features.product.dto.UpdateProductRequest;
+import dev.oudom.ecommerce.features.category.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

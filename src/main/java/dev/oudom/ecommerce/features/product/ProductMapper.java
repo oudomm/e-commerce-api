@@ -1,10 +1,9 @@
-package dev.oudom.ecommerce.mapper;
+package dev.oudom.ecommerce.features.product;
 
-import dev.oudom.ecommerce.domain.Product;
-import dev.oudom.ecommerce.dto.CreateProductRequest;
-import dev.oudom.ecommerce.dto.PatchProductRequest;
-import dev.oudom.ecommerce.dto.ProductResponse;
-import dev.oudom.ecommerce.dto.UpdateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.CreateProductRequest;
+import dev.oudom.ecommerce.features.product.dto.PatchProductRequest;
+import dev.oudom.ecommerce.features.product.dto.ProductResponse;
+import dev.oudom.ecommerce.features.product.dto.UpdateProductRequest;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

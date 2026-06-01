@@ -1,5 +1,6 @@
-package dev.oudom.ecommerce.domain;
+package dev.oudom.ecommerce.features.category;
 
+import dev.oudom.ecommerce.features.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
